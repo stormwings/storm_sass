@@ -1,0 +1,53 @@
+/*
+  Color Palette UI
+*/
+
+:root {
+    --white: #ffffff;
+    --dark-sky-blue: #309be5;
+    --grey-disabled: rgba(227, 227, 227, 0.43);
+}
+
+$white: var(--white);
+$dark-sky-blue: var(--dark-sky-blue);
+$grey-disabled: var(--grey-disabled);
+
+/*
+  Main Colors
+*/
+
+$colorBackground: #F6FAFC;
+$colorBlack: #000000;
+$colorPink: #E84D56;
+
+/*
+  Layout
+*/
+
+$font-10: .65rem ;
+$font-12: .75rem;
+$font-14: .88rem;
+$font-16: 1rem;
+$font-18: 18px;
+$font-20: 1.3rem;
+$font-24: 1.5rem;
+$font-32: 2rem;
+$font-48: 3rem;
+$font-64: 4rem;
+
+/*
+  Media Queries
+*/
+
+$desk-2300: 2300px;
+$desk-1920: 1920px;
+$desk-1680: 1680px;
+$desk-1440: 1440px;
+$desk-1366: 1366px;
+$desk-1024: 1024px;
+$mobile-900: 900px;
+$mobile-820: 820px;
+$mobile-768: 768px;
+$mobile-600: 600px;
+$mobile-460: 460px;
+$mobile-375: 375px;

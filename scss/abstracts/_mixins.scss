@@ -1,0 +1,68 @@
+@mixin align_center_width {
+  margin: 0 auto;
+}
+
+@mixin flex_parent_center_height() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin margin_up_down($margin-top, $margin-bottom) {
+  margin-top: $margin-top;
+  margin-bottom: $margin-bottom;
+}
+
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-ms-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}
+
+@mixin transition($transition) {
+	transition: $transition;
+	-o-transition: $transition;
+	-moz-transition: $transition;
+	-webkit-transition: $transition;
+}
+
+@mixin transform($transform) {
+	-webkit-transform: $transform;
+	-moz-transform: $transform;
+	-ms-transform: $transform;
+	transform: $transform;
+}
+
+@mixin box-shadow($shadow) {
+	box-shadow: $shadow;
+	-ms-box-shadow: $shadow;
+	-moz-box-shadow: $shadow;
+	-webkit-box-shadow: $shadow;
+}
+
+@mixin blur($blur) {
+	-webkit-filter: blur($blur);
+	-moz-filter: blur($blur);
+	-o-filter: blur($blur);
+	-ms-filter: blur($blur);
+	filter: blur($blur);
+}
+
+@mixin placeholder {
+	::-webkit-input-placeholder {
+		@content
+	}
+
+	:-moz-placeholder {
+		@content
+	}
+
+	::-moz-placeholder {
+		@content
+	}
+
+	:-ms-input-placeholder {
+		@content
+	}
+}

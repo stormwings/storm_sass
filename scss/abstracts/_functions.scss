@@ -1,0 +1,9 @@
+@function sum($number-one, $number-two) {
+  @return $number-one+$number-two;
+}
+
+$font_size : (big: 24px,
+  normal: 24px,
+  small: 12px,
+  tiny: 8px,
+)

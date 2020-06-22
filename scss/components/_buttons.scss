@@ -1,0 +1,13 @@
+.button{
+    border-radius: 5rem;
+    text-align: center;
+    color: $white;
+    width: 360px;
+    display: inline-block;
+    cursor: pointer;
+    @extend .py2, .px4, .my3;
+
+    &.--active{
+        cursor: pointer;
+    }
+}

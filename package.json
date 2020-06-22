@@ -1,0 +1,23 @@
+{
+  "name": "storm_sass",
+  "version": "0.0.1",
+  "description": "SASS Atomic Design System library for building templates",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass --watch scss --output css",
+    "build": "cleancss -o css/lilit.min.css css/lilit.css"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "lib",
+    "template"
+  ],
+  "contributors": [
+    "Mariano Villarreal <marianov994@gmail.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

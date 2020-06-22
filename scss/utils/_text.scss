@@ -1,0 +1,68 @@
+:root {
+  --line-height-1: 1;
+  --line-height-2: 1.125;
+  --line-height-3: 1.25;
+  --line-height-4: 1.5;
+  --caps-letter-spacing: .2em;
+  --bold-font-weight: bold;
+
+  --size-1: .75rem;
+  --size-2: 1rem;
+  --size-3: 1.5rem;
+  --size-4: 2rem;
+  --size-5: 2.5rem;
+  --size-6: 3rem;
+  --size-7: 4rem;
+}
+
+.font-family-inherit { font-family: inherit }
+.font-size-inherit { font-size: inherit }
+.text-decoration-none { text-decoration: none }
+
+.bold    { font-weight: var(--bold-font-weight, bold) }
+.regular { font-weight: normal }
+.italic  { font-style: italic }
+.caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
+
+.left-align   { text-align: left }
+.center       { text-align: center }
+.right-align  { text-align: right }
+.justify      { text-align: justify }
+
+.font1 {font-size: var(--size-1);}
+.font2 {font-size: var(--size-2);}   
+.font3 {font-size: var(--size-3);}  
+.font4 {font-size: var(--size-4);}   
+.font5 {font-size: var(--size-5);}   
+.font6 {font-size: var(--size-6);}
+.font7 {font-size: var(--size-6);}    
+
+.nowrap { white-space: nowrap }
+.break-word { word-wrap: break-word }
+
+.line-height-1 { line-height: var(--line-height-1) }
+.line-height-2 { line-height: var(--line-height-2) }
+.line-height-3 { line-height: var(--line-height-3) }
+.line-height-4 { line-height: var(--line-height-4) }
+
+.--light{ color: $light;}
+.--lightGray{ color: $lightGray;}
+.--dark{color: $dark;}
+.--black{color: $black;}
+
+.list-style-none { list-style: none }
+.underline { text-decoration: underline }
+
+.pointer {cursor: pointer}
+
+.truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}

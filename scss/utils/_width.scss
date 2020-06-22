@@ -1,0 +1,26 @@
+:root {
+    --width-1: 10%;
+    --width-2: 20%;
+    --width-25: 25%;
+    --width-33: 33%;
+    --width-4: 40%;
+    --width-5: 50%;
+    --width-6: 60%;
+    --width-8: 80%;
+    --width-9: 90%;
+    --width-10: 100%;
+    --width-11: auto;
+}
+
+.w10{width: var(--width-1);}
+.w20{width: var(--width-2);}
+.w25{width: var(--width-25);}
+.w33{width: var(--width-33);}
+.w40{width: var(--width-4);}
+.w50{width: var(--width-5);}
+.w60{width: var(--width-6);}
+.w70{width: var(--width-7);}
+.w80{width: var(--width-8);}
+.w90{width: var(--width-9);}
+.w100{width: var(--width-10);}
+.wauto{width: var(--width-11);}
