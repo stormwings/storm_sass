@@ -1,4 +1,4 @@
-.button{
+%btn{
     border-radius: 5rem;
     text-align: center;
     color: $white;
@@ -10,4 +10,9 @@
     &.--active{
         cursor: pointer;
     }
+}
+
+.btn--success {
+    @extend %btn;
+    color: $colorPink;
 }

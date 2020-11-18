@@ -4,11 +4,13 @@
 
 :root {
     --white: #ffffff;
+    --grey: grey;
     --dark-sky-blue: #309be5;
     --grey-disabled: rgba(227, 227, 227, 0.43);
 }
 
 $white: var(--white);
+$gray: var(--grey);
 $dark-sky-blue: var(--dark-sky-blue);
 $grey-disabled: var(--grey-disabled);
 
@@ -19,6 +21,7 @@ $grey-disabled: var(--grey-disabled);
 $colorBackground: #F6FAFC;
 $colorBlack: #000000;
 $colorPink: #E84D56;
+$colorGray: $gray;
 
 /*
   Layout

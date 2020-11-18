@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+@mixin colorDark($darkColor: $colorBlack) {
+	color: $darkColor;
+}
+
 @mixin margin_up_down($margin-top, $margin-bottom) {
   margin-top: $margin-top;
   margin-bottom: $margin-bottom;
@@ -48,6 +52,16 @@
 	-ms-filter: blur($blur);
 	filter: blur($blur);
 }
+
+@mixin respond-to($width) {
+	@media only screen and (min-width: $width) {
+		@content;
+	}
+}
+// implementation
+// @include respond-to(800px) {
+// 	background-color: $darkColor;
+// }
 
 @mixin placeholder {
 	::-webkit-input-placeholder {
