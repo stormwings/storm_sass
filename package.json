@@ -4,8 +4,7 @@
   "description": "SASS Atomic Design System library for building templates",
   "main": "index.js",
   "scripts": {
-    "start": "node-sass --watch scss --output css",
-    "build": "cleancss -o css/lilit.min.css css/lilit.css"
+    "start": "gulp"
   },
   "keywords": [
     "sass",
