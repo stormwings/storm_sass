@@ -1,20 +1,20 @@
-.hide-xs{
-    @include mq('phablet'){
-        display: none !important;
-    }
-}
-.hide-sm{
-    @include mq('tablet'){
-        display: none !important;
-    }
-}
-.hide-md{
-    @include mq('tablet-wide'){
-        display: none !important;
-    }
-}
-.hide-lg{
-    @include mq('desktop'){
-        display: none !important;
-    }
-}
+// .hide-xs{
+//     @include mq('phablet'){
+//         display: none !important;
+//     }
+// }
+// .hide-sm{
+//     @include mq('tablet'){
+//         display: none !important;
+//     }
+// }
+// .hide-md{
+//     @include mq('tablet-wide'){
+//         display: none !important;
+//     }
+// }
+// .hide-lg{
+//     @include mq('desktop'){
+//         display: none !important;
+//     }
+// }

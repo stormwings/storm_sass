@@ -1,16 +1,16 @@
 .flex { display: flex }
 
-@include mq('phone') {
-  .sm-flex { display: flex }
-}
+// @include mq('phone') {
+//   .sm-flex { display: flex }
+// }
 
-@include mq('tablet'){
-  .md-flex { display: flex }
-}
+// @include mq('tablet'){
+//   .md-flex { display: flex }
+// }
 
-@include mq('desktop'){
-  .lg-flex { display: flex }
-}
+// @include mq('desktop'){
+//   .lg-flex { display: flex }
+// }
 
 .flex-column  { flex-direction: column }
 .flex-column-reverse {flex-direction: column-reverse }
